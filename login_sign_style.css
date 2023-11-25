@@ -1,0 +1,511 @@
+:root{
+    --green:#30b266; 
+    --green:#51b2d2; 
+    --dark-color: #219150; 
+    --dark-color: #565ad4;
+    --black: #444;
+    --light-color: #666;
+    --border: .1rem solid rgba(0,0,0,0.2);
+    --border-hover: .1rem var(var(--black));
+    --box-shadow: .5rem .1rem rgba(0,0,0,0.1);
+    --dark-bg:rgba(0,0,0,.7);
+    --blue:#2980b9;
+    --red:tomato;
+    --orange:orange;
+    --white:#fff;
+    --bg-color:#eee;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1); 
+    --bordert:.1rem solid #999;
+  
+ }
+ 
+ *{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+ }
+ 
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+ }
+ 
+ 
+ .sign-form-container{
+     display: flex;
+     
+     align-items: center;
+     justify-content: center;
+     background: rgba(255,255, 255, 0.9);
+     
+     top: 60px; right: -105%;
+ 
+     height: 100%; width: 100%;
+ }
+ 
+ .sign-form-container form{
+     background: #fff;
+     border: var(--border);
+     width: 40rem;
+     padding: 2rem;
+     box-shadow: var(--box-shadow);
+     border-radius: .5rem;
+     margin: 2rem;
+ }
+ 
+ 
+ .sign-form-container form h3{
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     color: var(--black);
+     text-align: center;
+ }
+ .sign-form-container form span{
+     display: block;
+     font-size: 1.5rem;
+     padding-top: 1rem;
+ }
+ .sign-form-container form .box{
+     width: 100%;
+     margin: .7rem 0;
+     font-size: 1.6rem;
+     border: var(--border);
+     border-radius: 0.5rem;
+     padding: 1rem 1.2rem;
+     color: var(--black);
+     text-transform: none;
+ }
+ .sign-form-container .propic{
+    font-size: 50px;
+ }
+ .sign-form-container form .checkbox{
+     display: flex;
+     align-items: center;
+     gap: .5rem;
+     padding: 1rem 0;
+ }
+ .sign-form-container form .checkbox label{
+     font-size: 1.5rem;
+     color: var(--light-color);
+     cursor: pointer;
+ }
+ .sign-form-container form .btn{
+     text-align: center;
+     width: 100%;
+     margin: 1.5rem 0;
+ }
+ .sign-form-container .logbox span{
+    text-align: left;
+ }
+
+ .sign-form-container form p{
+     padding-top: .8rem;
+     color: var(--light-color);
+     font-size: 1.5rem;
+ }
+ .sign-form-container form p a{
+     color: var(--green);
+     text-decoration: underline;
+ }
+ .sign-form-container form p a:hover{
+     color: var(--dark-color);
+ }
+ .sign-form-container #close-login-btn{
+     position: absolute;
+     top: 1.5rem; right: 2.5rem;
+     font-size: 5rem;
+     color: var(--black);
+     cursor: pointer;
+ }
+ 
+ .btn{
+     margin-top: 1rem;
+     display: inline-block;
+     padding: .9rem 3rem;
+     border-radius: .5rem;
+     color: #fff;
+     background: black;
+     font-size: 1.7rem;
+     font-weight: 500;
+     cursor: pointer;
+ }
+ .btn:hover{
+     transform: scale(1.01);
+ }
+ .btn2{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: black;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 60%;
+    
+}
+.btn2:hover{
+    transform: scale(1.01);
+}
+ .message{
+     width: 100%;
+     display: inline-block;
+     height: 40px;
+     background-color: rgb(16, 192, 51);
+     font-size: 1.7rem;
+     border-radius: 1rem;
+     text-align: center;
+     padding: .9rem 3rem;
+     margin-top: 1rem;
+     color: black;
+     font-weight: 600;
+     -webkit-border-radius: 1rem;
+     -moz-border-radius: 1rem;
+     -ms-border-radius: 1rem;
+     -o-border-radius: 1rem;
+ }
+ 
+ /* logbox--------------- */
+ 
+ .logbox{
+     margin-top: 100px;
+     width: 420px;
+     text-align: center;
+     display:flex;
+     flex-direction: column;
+     background-color: #ffffff;
+     border-radius: 8px;
+     box-shadow: var(--box-shadow);
+     height:auto;
+      
+ }
+ 
+ 
+ .logbox span{
+     padding: 6px;
+     width: 100%;
+     font-size: 20px;
+     font-weight: 400px;
+ }
+ 
+ /* /////////////////////// */
+ 
+ .product-container{
+     display: flex;
+      
+     
+     
+     align-items: center;
+     justify-content:space-between;
+     background: rgba(255,255, 255, 0.9);
+     
+     top: 60px; right: -105%;
+ 
+     height: 100%; width: 100%;
+ }
+ 
+ .indiv{
+     width: 50%;
+    float: left;
+     padding: 5px;
+ }
+ 
+ .product-container form{
+     background: #fff;
+     border: var(--border);
+     width: 100%;
+     padding: 2rem;
+     box-shadow: var(--box-shadow);
+     border-radius: .5rem;
+     margin: 2rem;
+ }
+ 
+ 
+ .product-container form h3{
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     color: var(--black);
+     text-align: center;
+ }
+ .product-container form span{
+     display: flex;
+     font-size: 1.5rem;
+     padding-top: 1rem;
+ }
+ .product-container form .box{
+     width:100%;
+     margin: .7rem 0;
+     font-size: 1.6rem;
+     border: var(--border);
+     border-radius: 0.5rem;
+     padding: 1rem 1.2rem;
+     color: var(--black);
+     text-transform: none;
+ }
+ .product-container form .checkbox{
+     display: flex;
+     align-items: center;
+     gap: .5rem;
+     padding: 1rem 0;
+ }
+ .product-container form .checkbox label{
+     font-size: 1.5rem;
+     color: var(--light-color);
+     cursor: pointer;
+ }
+ .product-container form .btn{
+     text-align: center;
+     width: 100%;
+     margin: 1.5rem 0;
+ }
+ .product-container form p{
+     padding-top: .8rem;
+     color: var(--light-color);
+     font-size: 1.5rem;
+ }
+ .product-container form p a{
+     color: var(--green);
+     text-decoration: underline;
+ }
+ .product-container form p a:hover{
+     color: var(--dark-color);
+ }
+ .product-container #close-login-btn{
+     position: absolute;
+     top: 1.5rem; right: 2.5rem;
+     font-size: 5rem;
+     color: var(--black);
+     cursor: pointer;
+ }
+ 
+ @media (max-width:768px){
+ 
+     .indiv{
+         width: 100%;
+         float:none;
+     }
+ }
+ 
+ 
+ /*display product table */
+ 
+ .display-product-table table{
+     width: 100%;
+     text-align: center;
+  }
+  
+  .display-product-table table thead th{
+     padding:1rem;
+     font-size: 1.5rem;
+     background-color: var(--black);
+     color:var(--white);
+  }
+  
+  .display-product-table table td{
+     padding:1rem;
+     font-size: 1.5rem;
+     color:var(--black);
+  }
+  
+  .display-product-table table td:first-child{
+     padding:0;
+  }
+  
+  .display-product-table table tr:nth-child(even){
+     background-color: var(--bg-color);
+  }
+  
+  .display-product-table .empty{
+     margin-bottom: 1rem;
+     text-align: center;
+     background-color: var(--bg-color);
+     color:var(--black);
+     font-size: 1.5rem;
+     padding:1rem;
+  }
+  
+  @media (max-width:768px){
+  
+     .display-product-table{
+        overflow-x: scroll;
+     }
+  
+     .display-product-table table{
+        width: 80rem;
+     }
+  
+  }
+ 
+  .option-btn,
+ .delete-btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--blue);
+    color:var(--white);
+    font-size: 1.2rem;
+    padding:1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+ }
+ 
+ 
+ .option-btn-admin:hover,
+ .option-btn:hover,
+ .delete-btn:hover{
+    background-color: var(--black);
+ }
+ 
+ .option-btn-admin,
+ .option-btn i,
+ .delete-btn i{
+    padding-right: .5rem;
+ }
+ 
+ .option-btn{
+    background-color: var(--green);
+ }
+ .option-btn-admin{
+     
+     display: block;
+    width: 100%;
+    text-align: center;
+     
+    color:var(--white);
+    font-size: 1.2rem;
+    padding:1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+     background-color:red;
+ }
+ 
+ 
+ /* edit form */
+ 
+ .edit-form-container{
+     position: fixed;
+     top:0; left:0;
+     z-index: 1100;
+     background-color: var(--dark-bg);
+     padding:2rem;
+     display:none;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     width: 100%;
+  }
+  
+  .edit-form-container form{
+     width: 50rem;
+     border-radius: .5rem;
+     background-color: var(--white);
+     text-align: center;
+     padding:2rem;
+  }
+  
+  .edit-form-container form .box{
+     width: 100%;
+     background-color: var(--bg-color);
+     border-radius: .5rem;
+     margin:1rem 0;
+     font-size: 1.7rem;
+     color:var(--black);
+     padding:1.2rem 1.4rem;
+     text-transform: none;
+  }
+ 
+  /* ///////////pop add admin//////////////// */
+  
+  .add-form-container{
+     display:flex;
+     position: fixed;
+     
+     align-items: center;
+     justify-content: center;
+     background:var(--dark-bg);
+     
+     top: 0px;  
+ 
+     height: 100%; width:100%;
+     margin: auto;
+ }
+ 
+ .add-form-container form{
+     background: #fff;
+     border: var(--border);
+     width: 40rem;
+     padding: 2rem;
+     box-shadow: var(--box-shadow);
+     border-radius: .5rem;
+     margin: 2rem;
+ }
+ 
+ 
+ .add-form-container form h3{
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     color: var(--black);
+     text-align: center;
+ }
+ .add-form-container form span{
+     display: block;
+     font-size: 1.5rem;
+     padding-top: 1rem;
+ }
+ .add-form-container form .box{
+     width: 100%;
+     margin: .7rem 0;
+     font-size: 1.6rem;
+     border: var(--border);
+     border-radius: 0.5rem;
+     padding: 1rem 1.2rem;
+     color: var(--black);
+     text-transform: none;
+ }
+ .add-form-container form .checkbox{
+     display: flex;
+     align-items: center;
+     gap: .5rem;
+     padding: 1rem 0;
+ }
+ .add-form-container form .checkbox label{
+     font-size: 1.5rem;
+     color: var(--light-color);
+     cursor: pointer;
+ }
+ .add-form-container form .btn{
+     text-align: center;
+     width: 100%;
+     margin: 1.5rem 0;
+ }
+ .add-form-container form p{
+     padding-top: .8rem;
+     color: var(--light-color);
+     font-size: 1.5rem;
+ }
+ .add-form-container form p a{
+     color: var(--green);
+     text-decoration: underline;
+ }
+  
+ .add-form-container #close-login-btn{
+     position: absolute;
+     top: 1.5rem; right: 2.5rem;
+     font-size: 5rem;
+     color: var(--black);
+     cursor: pointer;
+ }
+
